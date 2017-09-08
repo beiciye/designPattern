@@ -4,12 +4,6 @@ import (
 	"fmt"
 )
 
-type Subject interface {
-	Register()
-	RemoverRegister()
-	Notify()
-}
-
 type Observer interface {
 	Name() string
 	SayHello() string
